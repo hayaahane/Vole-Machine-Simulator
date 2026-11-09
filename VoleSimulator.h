@@ -21,6 +21,8 @@ private:
 public:
     VoleSimulator();
     void start();
+    CPU& getCPU() { return cpu; }
+    Memory& getMemory() { return memory; }
 };
 
 #endif

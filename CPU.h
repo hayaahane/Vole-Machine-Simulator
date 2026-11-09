@@ -30,6 +30,14 @@ public:
     uint16_t getIR() const;
     bool isHalted() const;
     void printState() const;
+    void resetCPU() {
+        pc = 0;
+        ir = 0;
+        halted = false;
+        for(int i = 0; i < 16; i++) {
+            registers[i] = 0;
+        }
+    }
 
 };
 #endif
