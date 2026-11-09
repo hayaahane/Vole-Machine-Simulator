@@ -1,0 +1,4 @@
+; Vole Machine Program: Data Movement and Direct Display ; Purpose: Load a data value from memory location 20 into register 4, ; and then output it directly to the screen memory location (FF).
+1420
+34FF
+С000
