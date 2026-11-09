@@ -1,7 +1,7 @@
 # 💻 Vole Machine Simulator
 
 <p align="center">
-  **A C++ Vole Machine Simulator**
+  **C++ Vole Machine Simulator**
   
   Simulating machine instructions, memory operations, and CPU execution.
 </p>
