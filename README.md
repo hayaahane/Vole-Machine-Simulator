@@ -70,7 +70,7 @@ The project includes a Graphical User Interface (GUI) that provides a visual and
 
 ## 👥 Team Members
 
-| Name | Contribution |
+| Name | IDs | Emails | Contribution |
 |---|---|---|---|
 | Sara Hamada Mohamed | 20250270 | 20250270@stud.fci-cu.edu.eg  | CPU Class |
 | Haneen Osama Reda | 20250206 | 20250206@stud.fci-cu.edu.eg | Memory Class |
