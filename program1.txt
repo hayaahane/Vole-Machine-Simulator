@@ -1,0 +1,7 @@
+; Program 1: Add 8 and 9
+2008 ; Load 8 into Register 0
+2109 ; Load 9 into Register 1
+5201 ; Add R0 and R1 as integers, put result in Register 2
+3202 ; Store Register 2 into memory address 02
+C000 ; Halt execution
+
