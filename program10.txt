@@ -1,0 +1,13 @@
+; Program 10: AND 6 and 7, add 2, then combine with XOR and OR results
+2006
+2187
+8201
+2302
+5223
+4024
+9501
+7601
+5745
+5876
+38FF
+С000
