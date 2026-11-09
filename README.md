@@ -43,13 +43,13 @@ Vole Machine Simulator is a C++ application designed to simulate the operation o
 **1. Compile the project**
 
 ```bash
-g++ main.cpp CPU.cpp ALU.cpp Memory.cpp VoleSimulator.cpp -o VoleSimulator.exe
+g++ *.cpp -o vole_gui -lsfml-graphics -lsfml-window -lsfml-system
 ```
 
 **2. Run the application**
 
 ```bash
-./VoleSimulator.exe
+./vole_gui.exe
 ```
 
 ## 🧪 Testing
