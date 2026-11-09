@@ -79,13 +79,6 @@ bool Memory::loadFromFile(const std::string & filename , uint8_t startAddress)
             continue;
         }
 
-        string extra;
-
-        if (ss >> extra)
-        {
-           return false;
-        }
-
         if(code.length() !=4 )
         {
             return false;
