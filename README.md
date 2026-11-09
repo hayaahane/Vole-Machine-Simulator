@@ -72,17 +72,12 @@ The project includes a Graphical User Interface (GUI) that provides a visual and
 
 | Name | Contribution |
 |---|---|
-| Sara Hamada Mohamed  20250270 20250270@stud.fci-cu.edu.eg  | CPU Class |
-| Haneen Osama Reda 20250206 20250206@stud.fci-cu.edu.eg  | Memory Class |
-| Haya Hany Fathy 20250725 20250725@stud.fci-cu.edu.eg  | ALU Class |
-| Nermeen Hesham Ezz El Din 20250706 20250706@stud.fci-cu.edu.eg | VoleSimulator Class |
+| Sara Hamada Mohamed | 20250270 | 20250270@stud.fci-cu.edu.eg  | CPU Class |
+| Haneen Osama Reda | 20250206 | 20250206@stud.fci-cu.edu.eg | Memory Class |
+| Haya Hany Fathy | 20250725 | 20250725@stud.fci-cu.edu.eg | ALU Class |
+| Nermeen Hesham Ezz El Din | 20250706 | 20250706@stud.fci-cu.edu.eg | VoleSimulator Class |
 
 ---
-<p align="center">
-  **Vole Machine Simulator — CS213 OOP Assignment**
-</p>
-
-
 <p align="center">
   **Vole Machine Simulator — CS213 OOP Assignment**
 </p>
