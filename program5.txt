@@ -1,0 +1,13 @@
+; Purpose: Multiply 3 x 4 by adding 4 three times in a loop, ; then print the result on the screen 12).
+; Must be loaded at address 00 -
+2003
+2108
+2201
+2304
+2400
+B112
+5112
+5443
+BOOA
+34FF
+С000
