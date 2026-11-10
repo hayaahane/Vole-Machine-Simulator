@@ -35,6 +35,7 @@ Vole Machine Simulator is a C++ application designed to simulate the operation o
 
 - C++
 - Object-Oriented Programming (OOP)
+- SFML (Simple and Fast Multimedia Library) for GUI
 - Separate Compilation
 - Git & GitHub
 
@@ -52,6 +53,16 @@ g++ *.cpp -o vole_gui -lsfml-graphics -lsfml-window -lsfml-system
 ./vole_gui.exe
 ```
 
+## 📦 Prerequisites
+
+To run the GUI version of this simulator, you must have **SFML** installed on your system. 
+
+For Windows users using MSYS2 (MinGW), you can install the SFML library by running the following command in your MSYS2 terminal:
+
+```bash
+pacman -S mingw-w64-x86_64-sfml
+```
+
 ## 🧪 Testing
 
 The simulator was tested using multiple Vole machine programs to verify instruction execution and expected results.
@@ -59,6 +70,7 @@ The simulator was tested using multiple Vole machine programs to verify instruct
 ## 🖥️ Graphical User Interface (GUI)
 
 The project includes a Graphical User Interface (GUI) that provides a visual and user-friendly way to interact with the Vole Machine Simulator.
+
 
 ### GUI Features
 - Load Vole Machine programs.
