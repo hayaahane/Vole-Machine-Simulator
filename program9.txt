@@ -1,8 +1,4 @@
-;Vole Machine Program ; Program 9
-; It aims to add two integers ; Load immediate value (06) into register R2
-; Load Immediate value (04) into register R3
-;Add the values in register R2 and register R3, put result in register R5 ;Store the result from register R5 into memory[e0]
-;Halt
+; Program 9: Add two integers
 2206
 2304
 5523

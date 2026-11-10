@@ -1,10 +1,5 @@
-; Vole Machine Program
-;Program 4
-¡ It aims to bitwise AND
-; Load immediate value (03) into register Re ; Load immediate value (09) into register R1
-;Bitwise AND values from register Re and register R1, put result in register R3 ;Store the result from register R3 into memory[e0]
-;Halt
-2083
+; Program 4: Bitwise AND 03 and 09
+2003
 2109
 8301
 3300

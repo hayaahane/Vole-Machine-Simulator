@@ -1,13 +1,12 @@
-; Purpose: Multiply 3 x 4 by adding 4 three times in a loop, ; then print the result on the screen 12).
-; Must be loaded at address 00 -
-2003
-2108
-2201
-2304
-2400
-B112
-5112
-5443
-BOOA
-34FF
-С000
+; Program 5: Multiply 3 x 4 using a loop
+2000 ; R0 = 0 (Constant for Jump comparison)
+2103 ; R1 = 3 (Counter)
+22FF ; R2 = -1 (Decrement value in 2's complement)
+2304 ; R3 = 4 (Multiplicand)
+2400 ; R4 = 0 (Accumulator)
+B112 ; (Address 0A) Jump to 12 (End) if R1 == R0
+5443 ; (Address 0C) R4 = R4 + R3
+5112 ; (Address 0E) R1 = R1 + R2 (Decrement counter)
+B00A ; (Address 10) Unconditional Jump back to 0A
+3400 ; (Address 12) Store R4 to Screen (00)
+C000 ; (Address 14) Halt

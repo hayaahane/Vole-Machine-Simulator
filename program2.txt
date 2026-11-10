@@ -1,6 +1,6 @@
-; Program 2: Perform XOR operation between two values
-200F ; Load F into Register 0
-2133 ; Load 33 into Register 1
-9201 ; Exclusive OR R0 and R1, put result in Register 2
-32FF ; Store Register 2 into memory address 00
-C000 ; Halt execution
+; Program 2: Perform XOR operation between F and 33
+200F ; Load F into R0
+2133 ; Load 33 into R1
+9201 ; XOR R0 and R1, result in R2
+3200 ; Store R2 to Screen (00)
+C000 ; Halt

@@ -1,6 +1,5 @@
 // =============================================================================
 //  VOLE MACHINE SIMULATOR  -  SFML GUI  (Dark / Cyberpunk theme)
-//  Fully adapted to Haya, Sarah, and Nermin's C++ Backend classes.
 // =============================================================================
 #include <SFML/Graphics.hpp>
 #include <SFML/Window.hpp>
@@ -15,15 +14,12 @@
 #include <string>
 #include <vector>
 
-#include "VoleSimulator.h"  // Your actual team backend
+#include "VoleSimulator.h"  
 
 #if SFML_VERSION_MAJOR >= 3
 #define VOLE_SFML3 1
 #endif
 
-// =============================================================================
-//  BACKEND ADAPTER  -  Bridging GUI actions with Sarah & Nermin's methods.
-// =============================================================================
 namespace backend {
 
 inline int  readPC(VoleSimulator& s)               { return static_cast<int>(s.getCPU().getPC()) & 0xFF; }
@@ -52,7 +48,7 @@ inline bool loadProgram(VoleSimulator& s, const std::string& path) {
     }
 }
 
-} // namespace backend
+}
 
 // =============================================================================
 //  Value formatting utilities
@@ -120,7 +116,7 @@ inline Decoded decode(int ir) {
     }
 }
 
-} // namespace util
+}
 
 // =============================================================================
 //  SFML 2 / 3 compatibility helpers

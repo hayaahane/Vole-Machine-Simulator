@@ -1,8 +1,6 @@
-
-: Vole Machine Program
-; Purpose: Perform a bitwise OR operation on two ; immediate values (3F and 02) and display the result.
+; Program 7: Bitwise OR on 3F and 02
 203F
-2182
+2102
 7201
 3200
 C000
