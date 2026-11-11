@@ -1,6 +1,0 @@
-; Program 7: Bitwise OR on 3F and 02
-203F
-2102
-7201
-3200
-C000

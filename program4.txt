@@ -1,6 +1,0 @@
-; Program 4: Bitwise AND 03 and 09
-2003
-2109
-8301
-3300
-C000

@@ -1,6 +1,0 @@
-; Program 9: Add two integers
-2206
-2304
-5523
-3500
-C000
